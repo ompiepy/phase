@@ -1,0 +1,5 @@
+applicationId="7b4dd4e3-63d3-4d8a-821f-5133c721de0b"
+applicationSecret="a00eedea60add35378a2132fedbe96079e18ef3aa65768c43bc5bb268850aabdcb78aee29246c02cbd2022dd87c40814b1094176a19df5106a4cd0970507d9994d9e011258368a2a4b819a244ed3a5a92aa32a0d1c1bec90b377e0bb8ba343b843914a8196c86fe8299da313152b7ac8"
+
+const authString = btoa(`${applicationId}:${applicationSecret}`);
+console.log(authString)
